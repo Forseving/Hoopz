@@ -376,7 +376,7 @@ end
 function jumped()
     if _G.Aimbot and plr.Character and hasBall and plr.Character:FindFirstChild("HumanoidRootPart") and plr.Character.HumanoidRootPart.Transparency == 0 then
         jumping = true
-        task.wait(0.325)
+        task.wait(0.275)
         shoot()
         task.wait(0.1)
         jumping = false
